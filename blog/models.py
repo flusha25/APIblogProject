@@ -18,3 +18,4 @@ class Category(models.Model):
     background_color = models.CharField(max_length = 100)
     def __str__(self):
         return self.title
+
